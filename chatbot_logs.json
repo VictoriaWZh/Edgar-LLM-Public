@@ -1,0 +1,405 @@
+[
+    {
+        "Timestamp": "2025-03-13T15:17:57.258461",
+        "Question": "hi!!!!! hows ur day",
+        "Response": "Please ask a valid and relevant question to the EDGAR Chatbot.",
+        "Average Similarity": 0,
+        "Relevancy": 0,
+        "Harmfulness": 0,
+        "Context": "",
+        "Number of Hits": 0,
+        "Responded": false,
+        "Sources": []
+    },
+    {
+        "Timestamp": "2025-03-13T15:18:37.804846",
+        "Question": "sibling",
+        "Response": "Yes, our sibling admissions policy aims to create an equitable process. Currently enrolled families with siblings applying should refer to the Sibling Admissions page on our website for more information.",
+        "Average Similarity": 0.552333,
+        "Relevancy": 1.0,
+        "Harmfulness": 0.0,
+        "Context": "\n\nDo you have a sibling admissions policy? In an effort to create the most equitable admissions process possible, reviewing siblings in the full context of their applicant peers, we are confident that we make the most informed, mission-centered decisions possible as an admissions committee. Currently enrolled families with siblings applying for admission should review the Sibling Admissions page on the Current Families section of the EPS website for more information.",
+        "Number of Hits": 1,
+        "Responded": true,
+        "Sources": [
+            "",
+            "https://www.eastsideprep.org/prospective-families/frequently-asked-questions"
+        ]
+    },
+    {
+        "Timestamp": "2025-03-13T15:27:06.497771",
+        "Question": "do you condone violence",
+        "Response": "Please ask a valid and relevant question to the EDGAR Chatbot.",
+        "Average Similarity": 0,
+        "Relevancy": 0,
+        "Harmfulness": 0,
+        "Context": "",
+        "Number of Hits": 0,
+        "Responded": false,
+        "Sources": []
+    },
+    {
+        "Timestamp": "2025-03-18T15:22:05.429225",
+        "Question": "how can I get in to eps?",
+        "Response": "To begin the application process for Eastside Preparatory School, create an account on the Ravenna Hub and complete the core application. Engage with EPS by attending admissions events, and fill out the online application form by the deadline of January 16, 2025. Submit teacher evaluations, transcripts, standardized test scores, and complete the student online assessment. Schedule a parent/guardian interview through Ravenna.",
+        "Average Similarity": 0.45906334,
+        "Relevancy": 1.0,
+        "Harmfulness": false,
+        "Context": "\n\nVirtual \u201cGet to Know EPS\u201d Sessions - Registration Available in Ravenna Hub starting September 1st, 2024 Virtual \u201cGet to Know EPS\u201d Events are weeknight events held via Zoom with EPS Admissions staff, current students, and other community members. We\u2019ll share information about EPS and our admissions process, and then we\u2019ll open the meeting up for your questions! Virtual events are tailored towards families outside of the local area or those who cannot join us in person. If your student attended an in-person event, but you were unable to join them and want to learn more about EPS, this is a great opportunity to do so. This is a great opportunity for students as well as parents and guardians to ask anything you want to know about EPS and to get to know our school and community. \u201cGet to Know EPS\u201d events last about an hour.\n\nHow do I beginning the application process? How do I apply? What are the steps and guide in the application process? EPS utilizes the Ravenna Admit platform for managing applications. Prospective applicants can create an account on Ravenna Hub. Through this platform, you'll be able to complete the core application and submit supplemental forms such as teacher evaluations, student essays, and parent/guardian statements. Engage with EPS by participating in various admissions events. These may include virtual information sessions, campus tours, and community panels. Registration for these events is available through Ravenna Hub. Fill out the online application form via Ravenna, ensuring all required sections are completed. This includes personal information, academic history, and extracurricular involvement. The application deadline is January 16, 2025. Teacher Evaluations: Request evaluations from your current Math and English teachers. These can be submitted electronically through Ravenna. Transcripts: Provide transcripts or report cards from the past two academic years, including the first quarter of the current year. These should be sent directly from your current school to EPS. Standardized Test Scores: While EPS has adopted a test-flexible policy, applicants may choose to submit standardized test scores. Review the Test Flexible Policy for more details. Complete the Student Online Assessment: This assessment allows applicants to express their personalities and thought processes. It includes recorded video responses and written prompts. Detailed information and preparation tips are available on the Student Online Assessment page. Schedule a Parent/Guardian Interview: An interview with the applicant's parent(s) or guardian(s) is part of the admissions process. This conversation provides an opportunity to discuss the applicant's fit for EPS and allows families to ask questions. Interviews can be scheduled through Ravenna.\n\nPARENT/GUARDIAN INTERVIEW (register online with Ravenna Hub) \u00a2Complete Parent/Guardian Interview A thirty-minute virtual session designed to help us learn about applying students and families through the parent/guardian lens while also providing you with an opportunity to ask questions about EPS. Why: Parents are an important part of the EPS community. That\u2019s why we want to get to know you through a parent/guardian interview, where you\u2019ll have an opportunity to share more about your student and your family, and to ask any questions about EPS.",
+        "Number of Hits": 3,
+        "Responded": true,
+        "Sources": [
+            "",
+            "https://www.eastsideprep.org/PDF/2023-24/EPS_An_Introduction_2023_2024_Season.pdf",
+            "https://www.eastsideprep.org/admissions/applying-to-eps/",
+            "https://www.eastsideprep.org/prospective-families/how-you-get-to-know-eps"
+        ]
+    },
+    {
+        "Timestamp": "2025-03-18T15:24:40.386523",
+        "Question": "What does Yiyun Hendrix do?",
+        "Response": "I am unable to respond to your query. Please ask a relevant question to the EDGAR Chatbot. If you have application-specific questions, contact admissions@eastsideprep.org",
+        "Average Similarity": 0,
+        "Relevancy": 0,
+        "Harmfulness": 0,
+        "Context": "",
+        "Number of Hits": 0,
+        "Responded": false,
+        "Sources": []
+    },
+    {
+        "Timestamp": "2025-03-18T15:26:02.902885",
+        "Question": "i am a snail, can i be admitted",
+        "Response": "I am unable to respond to your query. Please ask a relevant question to the EDGAR Chatbot. If you have application-specific questions, contact admissions@eastsideprep.org",
+        "Average Similarity": 0,
+        "Relevancy": 0,
+        "Harmfulness": 0,
+        "Context": "",
+        "Number of Hits": 0,
+        "Responded": false,
+        "Sources": []
+    },
+    {
+        "Timestamp": "2025-03-18T15:26:45.330734",
+        "Question": "sibling",
+        "Response": "Yes, our sibling admissions policy aims to create an equitable process by reviewing siblings in the context of their applicant peers. Current families with siblings applying should refer to the Sibling Admissions page on our website for more information.",
+        "Average Similarity": 0.552333,
+        "Relevancy": 1.0,
+        "Harmfulness": false,
+        "Context": "\n\nDo you have a sibling admissions policy? In an effort to create the most equitable admissions process possible, reviewing siblings in the full context of their applicant peers, we are confident that we make the most informed, mission-centered decisions possible as an admissions committee. Currently enrolled families with siblings applying for admission should review the Sibling Admissions page on the Current Families section of the EPS website for more information.",
+        "Number of Hits": 1,
+        "Responded": true,
+        "Sources": [
+            "",
+            "https://www.eastsideprep.org/prospective-families/frequently-asked-questions"
+        ]
+    },
+    {
+        "Timestamp": "2025-03-18T15:27:14.333286",
+        "Question": "How can I improve my application",
+        "Response": "I am unable to respond to your query. Please ask a relevant question to the EDGAR Chatbot. If you have application-specific questions, contact admissions@eastsideprep.org",
+        "Average Similarity": 0,
+        "Relevancy": 0,
+        "Harmfulness": 0,
+        "Context": "",
+        "Number of Hits": 0,
+        "Responded": false,
+        "Sources": []
+    },
+    {
+        "Timestamp": "2025-03-18T15:28:26.353395",
+        "Question": "What qualities do EPS admissions officers look for in prospective students",
+        "Response": "At Eastside Prep, admissions officers look for students who demonstrate critical thinking, responsible action, compassionate leadership, and wise innovation. They value authenticity, individuality, and a student's unique way of thinking about questions.",
+        "Average Similarity": 0.5306244666666666,
+        "Relevancy": 1.0,
+        "Harmfulness": false,
+        "Context": "\n\nDoes EPS offer AP or IB classes? EPS has a truly independent curriculum and does not offer AP or IB classes. To quote our Head of School, Ermerita, Dr. Terry Macaluso:\u201d Sometimes people wonder why we don\u2019t offer AP classes. First, AP classes are offered in public schools, so there\u2019s no need to pay independent school tuition if AP is a priority. The primary reason we don\u2019t offer AP is because it flies in the face of our mission. AP classes are survey classes. They aim to cover as much of the waterfront as possible. EPS is interested in the opposite; our program is designed to go deep, to explore fewer concepts and ideas, but to do so in a way that achieves genuine understanding. For students to be able to practice critical thinking, they must be guided to reach for the essence of an idea or set of data points.\u201d Please visit our College Counseling Testing page for more information.\n\nAt Eastside Prep (EPS), we inspire students to create a better world through Critical Thinking, Responsible Action, Compassionate Leadership, and Wise Innovation. Our motto is TALI: Think critically, Act Responsibly, Lead Compassionately, and Innovate Wisely. We are excited to share how our mission above is woven into everything we do at EPS, whether you are exploring information on the website or attending an Admissions event.\n\nOur admissions process prioritizes getting to know each student as an individual\u2014their personalities, interests, and the unique way they think about questions. Through recorded interview responses, students can express this in their own words, providing an authentic insight into each student\u2019s identity and personality for our Admissions Committee. Through the Student Online Assessment, Eastside Prep hears from students directly in their own words. Three recorded videos and two typed responses are part of the assessment. It\u2019s like an interview that can be completed at any time.",
+        "Number of Hits": 3,
+        "Responded": true,
+        "Sources": [
+            "",
+            "https://www.eastsideprep.org/admissions/",
+            "https://www.eastsideprep.org/prospective-families/apply-online/student-online-assessment",
+            "https://www.eastsideprep.org/prospective-families/frequently-asked-questions"
+        ]
+    },
+    {
+        "Timestamp": "2025-03-18T17:00:01.509791",
+        "Question": "hehe",
+        "Response": "I am unable to respond to your query. Please ask a relevant question to the EDGAR Chatbot. If you have application-specific questions, contact admissions@eastsideprep.org",
+        "Average Similarity": 0,
+        "Relevancy": 0,
+        "Harmfulness": 0,
+        "Context": "",
+        "Number of Hits": 0,
+        "Responded": false,
+        "Sources": []
+    },
+    {
+        "Timestamp": "2025-03-20T16:31:49.874640",
+        "Question": "hola hola",
+        "Response": "I am unable to respond to your query. Please ask a relevant question to the EDGAR Chatbot. If you have application-specific questions, contact admissions@eastsideprep.org",
+        "Average Similarity": 0,
+        "Relevancy": 0,
+        "Harmfulness": 0,
+        "Context": "",
+        "Number of Hits": 0,
+        "Responded": false,
+        "Sources": []
+    },
+    {
+        "Timestamp": "2025-03-20T16:36:57.617675",
+        "Question": "hi",
+        "Response": "I am unable to respond to your query. Please ask a relevant question to the EDGAR Chatbot. If you have application-specific questions, contact admissions@eastsideprep.org",
+        "Average Similarity": 0,
+        "Relevancy": 0,
+        "Harmfulness": 0,
+        "Context": "",
+        "Number of Hits": 0,
+        "Responded": false,
+        "Sources": []
+    },
+    {
+        "Timestamp": "2025-03-26T20:20:34.649790",
+        "Question": "rivah oh rivah flow gently fah me",
+        "Response": "I am unable to respond to your query. Please ask a relevant question to the EDGAR Chatbot. If you have application-specific questions, contact admissions@eastsideprep.org",
+        "Average Similarity": 0,
+        "Relevancy": 0,
+        "Harmfulness": 0,
+        "Context": "",
+        "Number of Hits": 0,
+        "Responded": false,
+        "Sources": []
+    },
+    {
+        "Timestamp": "2025-03-27T15:28:33.118723",
+        "Question": "whi is dthe prinicipa",
+        "Response": "I am unable to respond to your query. Please ask a relevant question to the EDGAR Chatbot. If you have application-specific questions, contact admissions@eastsideprep.org",
+        "Average Similarity": 0,
+        "Relevancy": 0,
+        "Harmfulness": 0,
+        "Context": "",
+        "Number of Hits": 0,
+        "Responded": false,
+        "Sources": []
+    },
+    {
+        "Timestamp": "2025-03-27T15:28:46.694219",
+        "Question": "ap",
+        "Response": "Our school doesn't offer AP or IB classes, as they contradict our mission. We focus on in-depth exploration, promoting critical thinking, and genuine understanding, allowing students to grasp the essence of ideas and data points, as stated by our Head of School, Dr. Terry Macaluso.",
+        "Average Similarity": 0.4112281,
+        "Relevancy": 0.75,
+        "Harmfulness": 0,
+        "Context": "\n\nDoes EPS offer AP or IB classes? EPS has a truly independent curriculum and does not offer AP or IB classes. To quote our Head of School, Ermerita, Dr. Terry Macaluso:\u201d Sometimes people wonder why we don\u2019t offer AP classes. First, AP classes are offered in public schools, so there\u2019s no need to pay independent school tuition if AP is a priority. The primary reason we don\u2019t offer AP is because it flies in the face of our mission. AP classes are survey classes. They aim to cover as much of the waterfront as possible. EPS is interested in the opposite; our program is designed to go deep, to explore fewer concepts and ideas, but to do so in a way that achieves genuine understanding. For students to be able to practice critical thinking, they must be guided to reach for the essence of an idea or set of data points.\u201d Please visit our College Counseling Testing page for more information.",
+        "Number of Hits": 1,
+        "Responded": true,
+        "Sources": [
+            "https://www.eastsideprep.org/prospective-families/frequently-asked-questions"
+        ]
+    },
+    {
+        "Timestamp": "2025-03-27T15:39:25.501566",
+        "Question": "how do i apply",
+        "Response": "I am unable to respond to your query. Please ask a relevant question to the EDGAR Chatbot. If you have application-specific questions, contact admissions@eastsideprep.org",
+        "Average Similarity": 0,
+        "Relevancy": 0,
+        "Harmfulness": 0,
+        "Context": "",
+        "Number of Hits": 0,
+        "Responded": false,
+        "Sources": []
+    },
+    {
+        "Timestamp": "2025-03-27T15:39:39.389548",
+        "Question": "how to apply to eps",
+        "Response": "To apply to our school, utilize the Ravenna Admit platform, complete the core application, and submit supplemental forms such as teacher evaluations and student essays through Ravenna Hub, and schedule a parent/guardian interview.",
+        "Average Similarity": 0.4368075,
+        "Relevancy": 1.0,
+        "Harmfulness": 0,
+        "Context": "\n\nHow do I beginning the application process? How do I apply? What are the steps and guide in the application process? EPS utilizes the Ravenna Admit platform for managing applications. Prospective applicants can create an account on Ravenna Hub. Through this platform, you'll be able to complete the core application and submit supplemental forms such as teacher evaluations, student essays, and parent/guardian statements. Engage with EPS by participating in various admissions events. These may include virtual information sessions, campus tours, and community panels. Registration for these events is available through Ravenna Hub. Fill out the online application form via Ravenna, ensuring all required sections are completed. This includes personal information, academic history, and extracurricular involvement. The application deadline is January 16, 2025. Teacher Evaluations: Request evaluations from your current Math and English teachers. These can be submitted electronically through Ravenna. Transcripts: Provide transcripts or report cards from the past two academic years, including the first quarter of the current year. These should be sent directly from your current school to EPS. Standardized Test Scores: While EPS has adopted a test-flexible policy, applicants may choose to submit standardized test scores. Review the Test Flexible Policy for more details. Complete the Student Online Assessment: This assessment allows applicants to express their personalities and thought processes. It includes recorded video responses and written prompts. Detailed information and preparation tips are available on the Student Online Assessment page. Schedule a Parent/Guardian Interview: An interview with the applicant's parent(s) or guardian(s) is part of the admissions process. This conversation provides an opportunity to discuss the applicant's fit for EPS and allows families to ask questions. Interviews can be scheduled through Ravenna.",
+        "Number of Hits": 1,
+        "Responded": true,
+        "Sources": [
+            "https://www.eastsideprep.org/admissions/applying-to-eps/"
+        ]
+    },
+    {
+        "Timestamp": "2025-03-27T15:41:19.040784",
+        "Question": "sibling policy",
+        "Response": "Our sibling admissions policy reviews siblings in the full context of their applicant peers, making informed decisions. Currently enrolled families can find more information on our Sibling Admissions page on our website for details on our process and mission-centered decisions.",
+        "Average Similarity": 0.7021518,
+        "Relevancy": 1.0,
+        "Harmfulness": 0,
+        "Context": "\n\nDo you have a sibling admissions policy? In an effort to create the most equitable admissions process possible, reviewing siblings in the full context of their applicant peers, we are confident that we make the most informed, mission-centered decisions possible as an admissions committee. Currently enrolled families with siblings applying for admission should review the Sibling Admissions page on the Current Families section of the EPS website for more information.",
+        "Number of Hits": 1,
+        "Responded": true,
+        "Sources": [
+            "https://www.eastsideprep.org/prospective-families/frequently-asked-questions"
+        ]
+    },
+    {
+        "Timestamp": "2025-03-27T15:41:58.971403",
+        "Question": "what are the clubs at eps",
+        "Response": "Information about specific clubs at EPS is not provided. Our athletic program and \"Get to Know EPS\" sessions are available, but details about clubs are not mentioned, consider contacting admissions@eastsideprep.org for more information about our school.",
+        "Average Similarity": 0.45738596,
+        "Relevancy": 0.5,
+        "Harmfulness": 0,
+        "Context": "\n\nVirtual \u201cGet to Know EPS\u201d Sessions - Registration Available in Ravenna Hub starting September 1st, 2024 Virtual \u201cGet to Know EPS\u201d Events are weeknight events held via Zoom with EPS Admissions staff, current students, and other community members. We\u2019ll share information about EPS and our admissions process, and then we\u2019ll open the meeting up for your questions! Virtual events are tailored towards families outside of the local area or those who cannot join us in person. If your student attended an in-person event, but you were unable to join them and want to learn more about EPS, this is a great opportunity to do so. This is a great opportunity for students as well as parents and guardians to ask anything you want to know about EPS and to get to know our school and community. \u201cGet to Know EPS\u201d events last about an hour.\n\nATHLETIC TEAMS EPS\u2019 athletic program is a participation-based program with a no-cut policy that allows every student\u2014no matter their athletic ability or experience\u2014to feel welcomed and part of a team.",
+        "Number of Hits": 2,
+        "Responded": true,
+        "Sources": [
+            "https://www.eastsideprep.org/PDF/2023-24/EPS_An_Introduction_2023_2024_Season.pdf",
+            "https://www.eastsideprep.org/prospective-families/how-you-get-to-know-eps"
+        ]
+    },
+    {
+        "Timestamp": "2025-03-27T15:42:42.573671",
+        "Question": "what are the academic teams at eps",
+        "Response": "I am unable to respond to your query. Please ask a relevant question to the EDGAR Chatbot. If you have application-specific questions, contact admissions@eastsideprep.org",
+        "Average Similarity": 0.5510109866666667,
+        "Relevancy": 0.25,
+        "Harmfulness": 0,
+        "Context": "\n\nATHLETIC TEAMS EPS\u2019 athletic program is a participation-based program with a no-cut policy that allows every student\u2014no matter their athletic ability or experience\u2014to feel welcomed and part of a team.\n\nDoes EPS offer AP or IB classes? EPS has a truly independent curriculum and does not offer AP or IB classes. To quote our Head of School, Ermerita, Dr. Terry Macaluso:\u201d Sometimes people wonder why we don\u2019t offer AP classes. First, AP classes are offered in public schools, so there\u2019s no need to pay independent school tuition if AP is a priority. The primary reason we don\u2019t offer AP is because it flies in the face of our mission. AP classes are survey classes. They aim to cover as much of the waterfront as possible. EPS is interested in the opposite; our program is designed to go deep, to explore fewer concepts and ideas, but to do so in a way that achieves genuine understanding. For students to be able to practice critical thinking, they must be guided to reach for the essence of an idea or set of data points.\u201d Please visit our College Counseling Testing page for more information.\n\nVirtual \u201cGet to Know EPS\u201d Sessions - Registration Available in Ravenna Hub starting September 1st, 2024 Virtual \u201cGet to Know EPS\u201d Events are weeknight events held via Zoom with EPS Admissions staff, current students, and other community members. We\u2019ll share information about EPS and our admissions process, and then we\u2019ll open the meeting up for your questions! Virtual events are tailored towards families outside of the local area or those who cannot join us in person. If your student attended an in-person event, but you were unable to join them and want to learn more about EPS, this is a great opportunity to do so. This is a great opportunity for students as well as parents and guardians to ask anything you want to know about EPS and to get to know our school and community. \u201cGet to Know EPS\u201d events last about an hour.",
+        "Number of Hits": 3,
+        "Responded": false,
+        "Sources": [
+            "https://www.eastsideprep.org/PDF/2023-24/EPS_An_Introduction_2023_2024_Season.pdf",
+            "https://www.eastsideprep.org/prospective-families/frequently-asked-questions",
+            "https://www.eastsideprep.org/prospective-families/how-you-get-to-know-eps"
+        ]
+    },
+    {
+        "Timestamp": "2025-03-27T21:50:02.127055",
+        "Question": "how to apply to eps",
+        "Response": "To apply to our school, create a Ravenna Hub account, complete the core application, and submit supplemental forms, including teacher evaluations and transcripts, then schedule a parent/guardian interview through Ravenna, and complete the Student Online Assessment.",
+        "Average Similarity": 0.4368075,
+        "Relevancy": 1.0,
+        "Harmfulness": 0,
+        "Context": "\n\nHow do I beginning the application process? How do I apply? What are the steps and guide in the application process? EPS utilizes the Ravenna Admit platform for managing applications. Prospective applicants can create an account on Ravenna Hub. Through this platform, you'll be able to complete the core application and submit supplemental forms such as teacher evaluations, student essays, and parent/guardian statements. Engage with EPS by participating in various admissions events. These may include virtual information sessions, campus tours, and community panels. Registration for these events is available through Ravenna Hub. Fill out the online application form via Ravenna, ensuring all required sections are completed. This includes personal information, academic history, and extracurricular involvement. The application deadline is January 16, 2025. Teacher Evaluations: Request evaluations from your current Math and English teachers. These can be submitted electronically through Ravenna. Transcripts: Provide transcripts or report cards from the past two academic years, including the first quarter of the current year. These should be sent directly from your current school to EPS. Standardized Test Scores: While EPS has adopted a test-flexible policy, applicants may choose to submit standardized test scores. Review the Test Flexible Policy for more details. Complete the Student Online Assessment: This assessment allows applicants to express their personalities and thought processes. It includes recorded video responses and written prompts. Detailed information and preparation tips are available on the Student Online Assessment page. Schedule a Parent/Guardian Interview: An interview with the applicant's parent(s) or guardian(s) is part of the admissions process. This conversation provides an opportunity to discuss the applicant's fit for EPS and allows families to ask questions. Interviews can be scheduled through Ravenna.",
+        "Number of Hits": 1,
+        "Responded": true,
+        "Sources": [
+            "https://www.eastsideprep.org/admissions/applying-to-eps/"
+        ]
+    },
+    {
+        "Timestamp": "2025-03-27T21:50:44.287539",
+        "Question": "how do i begin the application",
+        "Response": "I am unable to respond to your query. Please ask a relevant question to the EDGAR Chatbot. If you have application-specific questions, contact admissions@eastsideprep.org",
+        "Average Similarity": 0,
+        "Relevancy": 0,
+        "Harmfulness": 0,
+        "Context": "",
+        "Number of Hits": 0,
+        "Responded": false,
+        "Sources": []
+    },
+    {
+        "Timestamp": "2025-03-27T22:08:00.813144",
+        "Question": "how do i begin the application process",
+        "Response": "I am unable to respond to your query. Please ask a relevant question to the EDGAR Chatbot. If you have application-specific questions, contact admissions@eastsideprep.org",
+        "Average Similarity": 0,
+        "Relevancy": 0,
+        "Harmfulness": 0,
+        "Context": "",
+        "Number of Hits": 0,
+        "Responded": false,
+        "Sources": []
+    },
+    {
+        "Timestamp": "2025-03-27T22:08:49.002157",
+        "Question": "who is sam uzwack",
+        "Response": "Sam Uzwack is our head of school, a dedicated member of our community, leading our institution with commitment, overseeing our programs, and fostering a supportive environment for our students, as a key figure in our community, dedicated to our school.",
+        "Average Similarity": 0.6778565,
+        "Relevancy": 1.0,
+        "Harmfulness": 0,
+        "Context": "\n\nWho is your head of school or principal? Our head of school is Sam Uzwack, a dedicated member of our community.",
+        "Number of Hits": 1,
+        "Responded": true,
+        "Sources": [
+            "https://www.eastsideprep.org/whos-uz/"
+        ]
+    },
+    {
+        "Timestamp": "2025-03-27T22:10:26.851472",
+        "Question": "what clubs are there",
+        "Response": "Our school offers various clubs, including La Mesa de Espa\u00f1ol, Q-STEM, and AQUILA, as well as Environmental Club, GSA, and Linguistics Olympiad, with many more options available for students to explore their interests and passions in Middle and Upper School.",
+        "Average Similarity": 0.49305059,
+        "Relevancy": 0.5,
+        "Harmfulness": 0,
+        "Context": "\n\nDoes EPS have academic teams or clubs? What are some EPS student clubs? Who leads clubs? Most of the clubs offered at EPS were founded by students who had an idea, an interest, or a passion that they wanted to bring to EPS. Consequently, we have a wonderfully eclectic selection of clubs, and new and unique clubs are continually being added to our offerings. This means that there are numerous opportunities for students to get involved, to try new things, and to develop new skills and interests. Clubs and Academic Teams are integral to student life at Eastside Prep. Eastside Prep offers a wide variety of mid-day clubs, ensuring that every student has the opportunity to participate. Joining a club is an excellent way for students to explore new concepts and skills, pursue interests beyond the classroom, and build lasting friendships. Some clubs meet year-round, while others meet by trimester. Clubs meet during the school day, ensuring that every student can participate. All clubs share a common thread; they are all student-inspired and have heaps of fun! New clubs are being developed all the time based on student interest, therefore clubs can change based on student interest. Middle School: La Mesa de Espa\u00f1ol Club, Homework Club, Kindness Club, Magic the Gathering, Fantasy Football, 8th Grade Leadership Club, Film Making, Linguistics Olympiad, Allies in Equity, Breaking Binary, Conversation Club, Green Club, Reading for Fun, Leadership Lab (eighth-grade only). Upper School: La Mesa de Espa\u00f1ol Club, Q-STEM, APIDA Asian, Pacific-Islander Desi America), AQUILA Literary Magazine, Board Game Club, Business Club, Civic Engagement, Dungeons & Dragons, Environmental Club, EPSchedule, E-Sports, Fantasy Football Club, Girls Empowerment, GSA \u2013 Gender & Sexuality Alliance, Hack Club, Linguistics Olympiad, Pokemon GO/Photography, Tech Art, The Eagle Eye -Student Newspaper, Yearbook, EPS EV Project, Allies in Equity, Student Ambassadors, SALC (Student Athletes Leadership Club), Climbing Club (Meets on Saturdays\n\nSTUDENT-LED AND STUDENTDESIGNED CLUBS AND ACTIVITIES Clubs are based on student-led interest. Therefore, they may change each year and each trimester. Middle School Clubs \u00ce La Mesa de Espa\u00f1ol \u00ce Decompression Club \u00ce Fantasy Football \u00ce Film Making \u00ce Homework Club \u00ce Kindness Club \u00ce Magic the Gathering \u00ce Eighth Grade Leadership Lab \u00ce Allies for Equity \u00ce Breaking the Binary \u00ce Chess \u00ce Environmental Enthusiasts \u00ce K-Pop Dance Club \u00ce Magic the Gathering \u00ce Reading for Fun \u00ce Science Club Middle School Open Spaces \u00ce Sport Court \u00ce Gym \u00ce Art Room \u00ce Maker Space \u00ce Library \u00ce Board Game Space Upper School Clubs \u00ce APIDA (Asian, Pacific Islander, Desi American) \u00ce Aquila (Literary Magazine) \u00ce Badminton \u00ce Bridge Club \u00ce Board Game Club \u00ce Business Club \u00ce Chess \u00ce Civic Engagement \u00ce Dungeons & Dragons \u00ce Environmental Club \u00ce Fantasy Football \u00ce Girls Empowerment \u00ce GSA (Gender and Sexuality Alliance) \u00ce Hack Club \u00ce Linguistics Olympiad \u00ce Marine Science Club \u00ce Students Against Substance Misuse \u00ce The Eagle Eye (Newspaper) \u00ce Medicine Club \u00ce Yearbook \u00ce La Mesa de Espa\u00f1ol \u00ce Electric Vehicle Project \u00ce Allies for Equity (A4E) \u00ce Student Athlete Leadership Club (SALC)",
+        "Number of Hits": 2,
+        "Responded": true,
+        "Sources": [
+            "https://www.eastsideprep.org/PDF/2023-24/EPS_An_Introduction_2023_2024_Season.pdf",
+            "https://www.eastsideprep.org/current-families/handbooks/23-24-school-hours/"
+        ]
+    },
+    {
+        "Timestamp": "2025-03-27T22:11:11.338442",
+        "Question": "what academic teams are there",
+        "Response": "Our academic teams include Middle School Teams such as Chess, Debate, and Math, and Upper School Teams like Debate, EPS Research & Development, and Math, offering students various intellectual and competitive activities to participate in and develop their skills.",
+        "Average Similarity": 0.5151042333333332,
+        "Relevancy": 1.0,
+        "Harmfulness": 0,
+        "Context": "\n\nACADEMIC TEAMS Middle School Teams \u00ce Chess Team \u00ce Debate Team \u00ce First Lego League Robotics \u00ce Math Team Upper School Teams \u00ce Debate Team \u00ce EPS Research & Development (R&D) \u00ce First Tech Challenge Robotics \u00ce Math Team\n\nATHLETIC TEAMS EPS\u2019 athletic program is a participation-based program with a no-cut policy that allows every student\u2014no matter their athletic ability or experience\u2014to feel welcomed and part of a team.\n\nDoes EPS have academic teams or clubs? What are some EPS student clubs? Who leads clubs? Most of the clubs offered at EPS were founded by students who had an idea, an interest, or a passion that they wanted to bring to EPS. Consequently, we have a wonderfully eclectic selection of clubs, and new and unique clubs are continually being added to our offerings. This means that there are numerous opportunities for students to get involved, to try new things, and to develop new skills and interests. Clubs and Academic Teams are integral to student life at Eastside Prep. Eastside Prep offers a wide variety of mid-day clubs, ensuring that every student has the opportunity to participate. Joining a club is an excellent way for students to explore new concepts and skills, pursue interests beyond the classroom, and build lasting friendships. Some clubs meet year-round, while others meet by trimester. Clubs meet during the school day, ensuring that every student can participate. All clubs share a common thread; they are all student-inspired and have heaps of fun! New clubs are being developed all the time based on student interest, therefore clubs can change based on student interest. Middle School: La Mesa de Espa\u00f1ol Club, Homework Club, Kindness Club, Magic the Gathering, Fantasy Football, 8th Grade Leadership Club, Film Making, Linguistics Olympiad, Allies in Equity, Breaking Binary, Conversation Club, Green Club, Reading for Fun, Leadership Lab (eighth-grade only). Upper School: La Mesa de Espa\u00f1ol Club, Q-STEM, APIDA Asian, Pacific-Islander Desi America), AQUILA Literary Magazine, Board Game Club, Business Club, Civic Engagement, Dungeons & Dragons, Environmental Club, EPSchedule, E-Sports, Fantasy Football Club, Girls Empowerment, GSA \u2013 Gender & Sexuality Alliance, Hack Club, Linguistics Olympiad, Pokemon GO/Photography, Tech Art, The Eagle Eye -Student Newspaper, Yearbook, EPS EV Project, Allies in Equity, Student Ambassadors, SALC (Student Athletes Leadership Club), Climbing Club (Meets on Saturdays",
+        "Number of Hits": 3,
+        "Responded": true,
+        "Sources": [
+            "https://www.eastsideprep.org/PDF/2023-24/EPS_An_Introduction_2023_2024_Season.pdf",
+            "https://www.eastsideprep.org/current-families/handbooks/23-24-school-hours/"
+        ]
+    },
+    {
+        "Timestamp": "2025-03-27T22:12:09.298548",
+        "Question": "what is a day in the life of a student like",
+        "Response": "A day in the life of our student begins at 7:30 AM with optional Zero Period, followed by regular classes from 8:30 AM to 3:00 PM, with passing periods, lunch, and advisory sessions, and concludes with after-school programs until 6:00 PM.",
+        "Average Similarity": 0.45268799333333337,
+        "Relevancy": 1.0,
+        "Harmfulness": 0,
+        "Context": "\n\nWhat is the day in the life of a student like? What is the daily schedule? What are the school hours? How long is each class/period? Arrival (7:30 AM \u2013 8:30 AM): Students may arrive as early as 7:30 AM. Breakfast and study spaces are available in the Levinger-Poole Commons during this time. Zero Period (7:30 AM \u2013 8:20 AM): For students enrolled in Zero Period classes, the day begins at 7:30 AM. Regular Classes (8:30 AM \u2013 3:00 PM): The standard school day starts at 8:30 AM and concludes at 3:00 PM. EPS operates on a rotating block schedule, with classes labeled A through H. This rotation allows for in-depth focus on subjects and varies daily. Passing Periods: Short intervals between classes provide time for students to transition and briefly relax. Lunch: A designated lunch period offers students a chance to dine, socialize, and participate in club meetings or other activities. Advisory Sessions: Students meet regularly in small advisory groups, fostering mentorship and peer connections. Middle School advisories often include Upper School peer mentors, enhancing community bonds.After-School Programs (3:00 PM \u2013 6:00 PM): Post-class hours are dedicated to extracurricular activities such as athletics, arts, and clubs. The After-School Study Hall remains open until 6:00 PM for students who wish to study or await transportation. Clubs and Affinity Groups: EPS offers a variety of clubs and affinity groups that meet during and after school, allowing students to explore interests and build community.\n\nRavenna Forms are opportunities to share your thoughts and anything you want us to know about your family. The Parent/Guardian Statement allows us to understand better, in your own words, who your student is, who you are as a family, and what you\u2019re looking for in a school. Student Interests & Activities give us further insight into who your student is and what they like to do. We can imagine how your students might connect with and participate in our school community through this information. The Student Essay provides insights into how students think about a topic, as well as their writing style, in one to two paragraphs (250 words). Student Short Answers capture a student\u2019s personality through brief, in-the-moment responses. School Records help us see how your student has grown and progressed over their last three years of schooling, including areas of strength and areas where they can continue to grow. This helps us to understand where a student is academically and whether they\u2019re prepared to enter their application grade at EPS. Teacher Evaluations give us an in-the-classroom view of how a student interacts with peers and teachers. We hear teachers\u2019 firsthand experiences with the students. This allows us to visualize how your student will engage with the EPS community.\n\nLEARNING THROUGH EXPERIENCE & EDUCATION BEYOND THE CLASSROOM (EBC) Learning through experience is a component of all EPS courses, and excursions beyond campus support a deeper integration of knowledge. \u00ce All students attend a two-day orientation at the start of school, featuring overnight stays for sixth, ninth, and twelfth grades. \u00ce Service opportunities deepen students\u2019 understanding of the needs, issues and problems facing their community and the world, empowering students to understand their roles in meeting those needs, addressing those issues, and solving those problems. \u00ce During Culture Night, EPS families share experience-oriented exhibits and learn from others as they laugh, sing, eat, and dance together. \u00ce Education Beyond the Classroom (EBC) offers a wide variety of week-long experiences focused on arts, science, history, culture, the environment, and service. \u00ce Field trips to the Seattle Aquarium, King County Courthouse, Seattle Asian Art Museum (and many more locations!) enhance student learning. SOCIAL OPPORTUNITIES Middle and Upper School social events are an important part of student life at EPS. \u00ce Socials with games and dancing (Grades 5/6, 7/8, 9/10, as well as US Homecoming and Prom) \u00ce Thematic Socials (Halloween) \u00ce Movie Nights (including Spanish language movies) \u00ce Sporting events, including Homecoming each trimester \u00ce Music performances, theatre shows, and visual art shows",
+        "Number of Hits": 3,
+        "Responded": true,
+        "Sources": [
+            "https://www.eastsideprep.org/PDF/2023-24/EPS_An_Introduction_2023_2024_Season.pdf",
+            "https://www.eastsideprep.org/current-families/handbooks/23-24-school-hours/",
+            "https://www.eastsideprep.org/prospective-families/how-eps-gets-to-know-you"
+        ]
+    },
+    {
+        "Timestamp": "2025-03-27T22:13:27.110509",
+        "Question": "eat poop u idiot",
+        "Response": "I am unable to respond to your query. Please ask a relevant question to the EDGAR Chatbot. If you have application-specific questions, contact admissions@eastsideprep.org",
+        "Average Similarity": 0,
+        "Relevancy": 0,
+        "Harmfulness": 0,
+        "Context": "",
+        "Number of Hits": 0,
+        "Responded": false,
+        "Sources": []
+    },
+    {
+        "Timestamp": "2025-04-01T16:02:45.682352",
+        "Question": "emei",
+        "Response": "I am unable to respond to your query. Please ask a relevant question to the EDGAR Chatbot. If you have application-specific questions, contact admissions@eastsideprep.org",
+        "Average Similarity": 0,
+        "Relevancy": 0,
+        "Harmfulness": 0,
+        "Context": "",
+        "Number of Hits": 0,
+        "Responded": false,
+        "Sources": []
+    },
+    {
+        "Timestamp": "2025-04-01T16:54:44.909124",
+        "Question": "i love edgar",
+        "Response": "I am unable to respond to your query. Please ask a relevant question to the EDGAR Chatbot. If you have application-specific questions, contact admissions@eastsideprep.org",
+        "Average Similarity": 0,
+        "Relevancy": 0,
+        "Harmfulness": 0,
+        "Context": "",
+        "Number of Hits": 0,
+        "Responded": false,
+        "Sources": []
+    }
+]
