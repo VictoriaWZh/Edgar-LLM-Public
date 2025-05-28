@@ -26,5 +26,12 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Then copy the rest
 COPY . .
 
-# Optional: Default command
-CMD ["python"]
+# Expose port that the app runs on
+EXPOSE 5000
+
+# Set environment variables
+ENV GROQ_API_KEY=your_groq_api_key_here
+ENV QDRANT_API_KEY=your_qdrant_api_key_here
+
+# Command to run the application
+CMD ["python", "src/app/app.py"]
