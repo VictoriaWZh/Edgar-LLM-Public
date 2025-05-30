@@ -23,8 +23,12 @@ RUN pip install --no-cache-dir --upgrade pip
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Then copy the rest
-COPY . .
+# Copy necessary files
+COPY src/ /app/src/
+COPY data/ /app/data/
+COPY templates/ /app/templates/
+COPY static/ /app/static/
+COPY app.py /app/
 
 # Expose port that the app runs on
 EXPOSE 5000

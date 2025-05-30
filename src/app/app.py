@@ -156,16 +156,4 @@ def chat():
 
 if __name__ == '__main__':
     print("Starting Flask app...")
-    test_mode = input("Run in terminal test mode? (y/n): ").strip().lower()
-    if test_mode == 'y':
-        while True:
-            query = input("Enter your query (or type 'exit' to quit): ").strip()
-            if query.lower() == 'exit':
-                print("Exiting terminal test mode.")
-                break
-            sources, response_message = get_response(query, None)
-            print(f"\nResponse: {response_message}")
-            for source in sources:
-                print(source)
-    else:
-        app.run()
+    app.run()
