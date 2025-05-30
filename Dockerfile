@@ -1,4 +1,4 @@
-FROM python:3.13-slim
+FROM python:3.11-slim
 
 # Set workdir
 WORKDIR /app
@@ -30,8 +30,7 @@ COPY . .
 EXPOSE 5000
 
 # Set environment variables
-ENV GROQ_API_KEY=your_groq_api_key_here
-ENV QDRANT_API_KEY=your_qdrant_api_key_here
+ENV OPENAI_API_KEY=${OPENAI_API_KEY}
 
 # Command to run the application
 CMD ["python", "src/app/app.py"]
