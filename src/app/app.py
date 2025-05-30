@@ -5,10 +5,12 @@ from markupsafe import escape
 
 from dotenv import load_dotenv, dotenv_values
 from detoxify import Detoxify
+from dataLogs import DataLogs
 
 import os
 import json
 import ast
+from datetime import datetime
 
 from langchain_core.prompts import ChatPromptTemplate
 from langchain.chat_models import ChatOpenAI
@@ -84,23 +86,18 @@ def evaluate_input(query):
     toxicity_scores = Detoxify("original").predict([query])  # Expecting a list
     harmfulness = toxicity_scores["toxicity"][0]  # Get toxicity score
  
-    if harmfulness > 0.5:
-        return "I'm afraid I cannot respond to that. Please ask appropriate questions that are not harmful."
-    return ""
+    return harmfulness
 
 # Get response function
 def get_response(query: str, history: list) -> str:
-    # input_check = evaluate_input(query)
-    # if input_check != "":
-    #     print("Response deemed harmful.")
-    #     return [], input_check
+    harmfulness = evaluate_input(query)
     messages = chat_prompt.format_messages(context=db, question=query, history=history)
     print("Prompt formatted.")
     print(messages)
     # Invoke the OpenAI model
     ai_response = chat_model.invoke(messages)
     parsed = ast.literal_eval(ai_response.content)
-    return parsed["source"], parsed["response"]
+    return parsed["source"], parsed["response"], harmfulness
 
 # Initialize Flask
 app = flask.Flask(__name__)
@@ -127,15 +124,29 @@ def chat():
     user_message = escape(query)
 
     # Generate response
-    sources, response_message = get_response(user_message, user_history[-5:])
+    sources, response_message, harmfulness = get_response(user_message, user_history[-5:])
     temp_dict["response"] = response_message
     user_history.append(temp_dict)
     print(f"Response generated: {response_message}")
 
     try:
+        # Create log record
+        log_record = {
+            'timestamp': datetime.now(),
+            'user_query': user_message,
+            'response': response_message,
+            'sources': sources,
+            'harmfulness_score': harmfulness,
+            'user_history': user_history[-5:]  # Last 5 interactions
+        }
+        
+        # Log to MongoDB
+        DataLogs.write_mongodb(log_record)
+        
         resp = jsonify({
             'model_response': response_message,
-            'sources': sources  # Adjust if you extract sources in future
+            'sources': sources,
+            'harmfulness_score': harmfulness
         })
         resp.headers.add('Access-Control-Allow-Origin', '*')
         return resp
