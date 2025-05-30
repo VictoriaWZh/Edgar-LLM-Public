@@ -90,10 +90,10 @@ def evaluate_input(query):
 
 # Get response function
 def get_response(query: str, history: list) -> str:
-    input_check = evaluate_input(query)
-    if input_check != "":
-        print("Response deemed harmful.")
-        return [], input_check
+    # input_check = evaluate_input(query)
+    # if input_check != "":
+    #     print("Response deemed harmful.")
+    #     return [], input_check
     messages = chat_prompt.format_messages(context=db, question=query, history=history)
     print("Prompt formatted.")
     print(messages)
