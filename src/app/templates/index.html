@@ -104,18 +104,35 @@
             box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
         }
  
-        .header {
-            height: 50px;
-            background: linear-gradient(to right, #004a8e, #006bb3);
-            color: #fff;
-            font-size: 18px;
-            font-weight: bold;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            padding: 0 15px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        }
+.header {
+  height: 50px;
+  background: linear-gradient(to right, #004a8e, #006bb3);
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+ 
+.left-stack {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+    color: #fff;
+  font-size: 18px;
+}
+#subtext {
+ display: flex;
+  flex-direction: column;
+  justify-content: center;
+    color: #dcdcdc;
+  font-size: 10px;
+   font-weight:normal;
+ 
+}
  
         .header .minimize-btn {
             background: transparent;
@@ -260,8 +277,8 @@
             text-decoration: none;
             display: block;
  
-             word-break: break-word;        /* Forces break on long links */
-  overflow-wrap: anywhere;       /* Better for long URLs */
+             word-break: break-word;        /* forces break on long links */
+  overflow-wrap: anywhere;       /*  a7q ong URLs */
   display: inline;    
             margin-top: 5px;
             padding: 3px 5px;
@@ -280,6 +297,8 @@
             width: 100%;
             height: 100%;
         }
+ 
+   
     </style>
 </head>
 <body>
@@ -290,7 +309,12 @@
             <span class="tooltiptext">Chat with Edgar!</span>
         </div>
         <div class="header">
-            <span>Talk to Edgar!</span>
+           <div class = "left-lines">
+            <div>Talk to Edgar</div>
+            <div id = "subtext">This is a student led project and an ai: responses may not be accurate</div>
+ 
+           </div>
+         
             <button class="minimize-btn" onclick="minimizeChat(event)">-</button>
         </div>
         <div class="chat-history" id="chat-history"></div>

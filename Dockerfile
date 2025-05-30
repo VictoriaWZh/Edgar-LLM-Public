@@ -1,40 +1,41 @@
-FROM python:3.11-slim
+# Build stage
+FROM python:3.11-slim as builder
 
-# Set workdir
 WORKDIR /app
 
-# Pre-install system deps in one clean layer
-RUN apt-get update && \
-    apt-get install -y --no-install-recommends \
-        cmake \
-        build-essential \
-        pkg-config \
-        python3-venv \
-    && apt-get clean && rm -rf /var/lib/apt/lists/*
+# Install build dependencies
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    build-essential \
+    && rm -rf /var/lib/apt/lists/*
 
-# Set up virtual environment
-RUN python3 -m venv /opt/venv
-ENV PATH="/opt/venv/bin:$PATH"
-
-# Upgrade pip safely
-RUN pip install --no-cache-dir --upgrade pip
-
-# Copy project files after installing deps to optimize caching
+# Install Python dependencies
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copy necessary files
+# Production stage
+FROM python:3.11-slim
+
+WORKDIR /app
+
+# Copy only the necessary files from builder
+COPY --from=builder /usr/local/lib/python3.11/site-packages /usr/local/lib/python3.11/site-packages
+COPY --from=builder /usr/local/bin /usr/local/bin
+
+# Copy application files
 COPY src/ /app/src/
 COPY data/ /app/data/
-COPY templates/ /app/templates/
-COPY static/ /app/static/
-COPY app.py /app/
 
-# Expose port that the app runs on
+# Expose port
 EXPOSE 5000
 
-# Set environment variables
-ENV OPENAI_API_KEY=${OPENAI_API_KEY}
+# Health check
+HEALTHCHECK --interval=30s --timeout=3s --start-period=5s --retries=3 \
+    CMD curl -f http://localhost:5000/health || exit 1
 
-# Command to run the application
-CMD ["python", "src/app/app.py"]
+# Environment variables
+ENV FLASK_ENV=production \
+    FLASK_APP=src/app/app.py \
+    OPENAI_API_KEY=${OPENAI_API_KEY}
+
+# Command to run the application with gunicorn
+CMD ["gunicorn", "-w", "4", "-b", "0.0.0.0:5000", "src/app:app"]
