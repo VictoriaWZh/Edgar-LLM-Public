@@ -38,4 +38,4 @@ ENV FLASK_ENV=production \
     OPENAI_API_KEY=${OPENAI_API_KEY}
 
 # Command to run the application with gunicorn
-CMD ["gunicorn", "-w", "4", "-b", "0.0.0.0:5000", "src/app:app"]
+CMD ["gunicorn", "-w", "4", "-b", "0.0.0.0:5000", "--chdir", "/app/src", "app:app"]
