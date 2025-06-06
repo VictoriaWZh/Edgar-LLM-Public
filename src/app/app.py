@@ -5,7 +5,7 @@ from markupsafe import escape
 
 from dotenv import load_dotenv, dotenv_values
 from detoxify import Detoxify
-from dataLogs import DataLogs
+from .dataLogs import DataLogs
 
 import os
 import json

@@ -33,9 +33,8 @@ HEALTHCHECK --interval=30s --timeout=3s --start-period=5s --retries=3 \
     CMD curl -f http://localhost:5000/health || exit 1
 
 # Environment variables
-ENV FLASK_ENV=production \
-    FLASK_APP=src/app/app.py \
-    OPENAI_API_KEY=${OPENAI_API_KEY}
+ENV FLASK_ENV=production
+ENV FLASK_APP=src/app/app.py
 
 # Command to run the application with gunicorn
-CMD ["gunicorn", "-w", "4", "-b", "0.0.0.0:5000", "--chdir", "/app/src", "app:app"]
+CMD ["gunicorn", "-w", "4", "-b", "0.0.0.0:5000", "--chdir", "/app/src", "app.app:app"]
