@@ -5,8 +5,7 @@ from markupsafe import escape
 
 from dotenv import load_dotenv, dotenv_values
 from detoxify import Detoxify
-from .dataLogs import DataLogs
-
+from dataLogs import DataLogs
 import os
 import json
 import ast
@@ -81,23 +80,28 @@ chat_prompt = ChatPromptTemplate.from_messages([
     ),
 ])
 
-def evaluate_input(query):
-    """Check the toxicity of input query"""
-    toxicity_scores = Detoxify("original").predict([query])  # Expecting a list
-    harmfulness = toxicity_scores["toxicity"][0]  # Get toxicity score
+# def evaluate_input(query):
+#     """Check the toxicity of input query"""
+#     toxicity_scores = Detoxify("original").predict([query])  # Expecting a list
+#     harmfulness = toxicity_scores["toxicity"][0]  # Get toxicity score
  
-    return harmfulness
+#     if harmfulness > 0.5:
+#         return "I'm afraid I cannot respond to that. Please ask appropriate questions that are not harmful."
+#     return ""
 
 # Get response function
 def get_response(query: str, history: list) -> str:
-    harmfulness = evaluate_input(query)
+    # input_check = evaluate_input(query)
+    # if input_check != "":
+    #     print("Response deemed harmful.")
+    #     return [], input_check
     messages = chat_prompt.format_messages(context=db, question=query, history=history)
     print("Prompt formatted.")
     print(messages)
     # Invoke the OpenAI model
     ai_response = chat_model.invoke(messages)
     parsed = ast.literal_eval(ai_response.content)
-    return parsed["source"], parsed["response"], harmfulness
+    return parsed["source"], parsed["response"]
 
 # Initialize Flask
 app = flask.Flask(__name__)
@@ -124,7 +128,7 @@ def chat():
     user_message = escape(query)
 
     # Generate response
-    sources, response_message, harmfulness = get_response(user_message, user_history[-5:])
+    sources, response_message = get_response(user_message, user_history[-5:])
     temp_dict["response"] = response_message
     user_history.append(temp_dict)
     print(f"Response generated: {response_message}")
@@ -145,8 +149,7 @@ def chat():
         
         resp = jsonify({
             'model_response': response_message,
-            'sources': sources,
-            'harmfulness_score': harmfulness
+            'sources': sources  # Adjust if you extract sources in future
         })
         resp.headers.add('Access-Control-Allow-Origin', '*')
         return resp
@@ -155,5 +158,4 @@ def chat():
         return jsonify({'error': 'Failed to create response'})
 
 if __name__ == '__main__':
-    print("Starting Flask app...")
     app.run()
